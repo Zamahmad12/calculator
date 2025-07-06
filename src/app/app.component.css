@@ -8,17 +8,6 @@
   border-radius: 5px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
 }
-h4{
-    background-color: #17b986;
-width: 220px;
-margin-left: 40px;
-border-radius: 12px;
-margin-top: 1px;
-margin-bottom: 3px;
-  box-shadow: rgb(0, 0, 0) 0px 2px 4px;
-  font-family: sans-serif;
-  padding: 1px;
-}
 input {
   width: 70%;
   padding: 12px;
