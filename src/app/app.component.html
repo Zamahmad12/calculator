@@ -1,0 +1,38 @@
+<div class="container">
+  <input type="text" [value]="display" readonly />
+  <p>{{ result }}</p>
+
+  <div class="btn">
+    <button (click)="clear()">C</button>
+    <button (click)="deleteLast()" ><i class="fa-solid fa-delete-left"></i></button>
+    <button (click)="append('%')"><i class="fa-solid fa-percent"></i></button>
+    <button (click)="append('/')"><i class="fa-solid fa-divide"></i></button>
+  </div>
+
+  <div class="btn">
+    <button (click)="append('7')">7</button>
+    <button (click)="append('8')">8</button>
+    <button (click)="append('9')">9</button>
+    <button (click)="append('-')"><i class="fa-solid fa-minus"></i></button>
+  </div>
+
+  <div class="btn">
+    <button (click)="append('4')">4</button>
+    <button (click)="append('5')">5</button>
+    <button (click)="append('6')">6</button>
+    <button (click)="append('+')"><i class="fa-solid fa-plus"></i></button>
+  </div>
+
+  <div class="btn">
+    <button (click)="append('1')">1</button>
+    <button (click)="append('2')">2</button>
+    <button (click)="append('3')">3</button>
+    <button (click)="append('*')"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <div class="btn">
+    <button (click)="append('0')">0</button>
+    <button (click)="append('.')">.</button>
+    <button class="btn-result" (click)="calculate()"><i class="fa-solid fa-equals"></i></button>
+  </div>
+</div>
